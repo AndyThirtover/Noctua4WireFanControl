@@ -1,6 +1,8 @@
 # Noctua4WireFanControl
 Control Noctua Fan with MicroPython
 
+Uses MicroPython 1.12 on an ESP32
+
 I needed to control a 140mm Noctua fan to cool a cinema light.   The original kit made a nasty noise and had no temperature related speed control.
 
 The key variables are duty_factor and low_pwm_limit.
